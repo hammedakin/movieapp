@@ -1,0 +1,31 @@
+.movieItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    /* width: 270px; */
+    
+    cursor: pointer;
+    height: 270px;
+    /* margin-right: 20px; */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+.movieModal .modal-content {
+    background-color: black;
+    color: white;
+}
+
+.movieModal .modal-header button {
+    background-color: white !important;
+    color: white !important;
+}
+
+.movieModal .modal-content span {
+    margin-top: 10px !important;
+    display: block;
+}
